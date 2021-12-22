@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:platinum;">
+<body>
 <h1>Booking Dashboard for data of 2020 - Volkan Demir</h1>
 
 
 <h2>1.Grouping by Hotel</h2>
-<p> Charts cluster hotels into three categories. Clusters are 1 sigma intervals (mean+-standard deviation)</p>
+<p> Charts cluster hotels and cities into three categories. Clusters are 1 sigma intervals (mean+-standard deviation)</p>
 
 <h3>- Number of reservations</h3>
 <p>  On average, hotels got 25 reservations</p>
@@ -20,7 +20,7 @@
 <iframe src="fig_1_3.html" width="90%" height="500" title="Average Room Price by hotel" style="border:1px solid black;">  </iframe>
 
 <h3>- Total Revenue</h3>
-<p>  Revenue is the key metric that differentiates hotels. There are significant variations in revenues of hotels </p>
+<p>  Revenue is the key metric that differentiates hotels. There are significant variations in revenues of hotels. Revenue is a function of duration and price per night</p>
 <iframe src="fig_1_4.html" width="90%" height="500" title="Total Revenue by hotel" style="border:1px solid black;">  </iframe>
 
 
@@ -40,6 +40,7 @@
 
 <h3>- Map Plot with Number of Reservations by City</h3>
 <p>  Cities with no reservations are colored dark grey</p>
+<p>  Note: Some cities in the given data are not found in online map files (geojson) </p>
 <iframe src="map_plot.html" width="90%" height="500" title="Map Plot by City " style="border:1px solid black;">  </iframe>
 
 
